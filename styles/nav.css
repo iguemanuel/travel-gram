@@ -15,8 +15,14 @@ nav ul {
   padding-block: 8px;
 }
 
-#profile {
+#profile-navbar {
   width: 30px;
   height: 30px;
+  border-radius: 100%;
+}
+
+#perfil{
+  width: 130px;
+  height: 130px;
   border-radius: 100%;
 }

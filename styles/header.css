@@ -1,0 +1,12 @@
+header{
+    padding-block: 35px;
+}
+#profile{
+    display: flex;
+    gap: 32px;
+}
+
+#profile h1{
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+}
