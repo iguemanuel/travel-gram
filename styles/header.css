@@ -41,3 +41,7 @@ header .container {
   gap: 8px;
   align-items: center;
 }
+
+#info p {
+  text-align: right;
+}
