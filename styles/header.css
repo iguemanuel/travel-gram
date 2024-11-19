@@ -1,12 +1,43 @@
-header{
-    padding-block: 35px;
-}
-#profile{
-    display: flex;
-    gap: 32px;
+header {
+  padding-block: 35px;
 }
 
-#profile h1{
-    font: var(--text-lg);
-    color: var(--text-color-primary);
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profile {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+#profile > div {
+  max-width: 384px;
+}
+
+#profile h1 {
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+#profile p {
+  font: var(--text-md);
+  color: var(--text-color-secondary);
+}
+
+#info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#info li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
